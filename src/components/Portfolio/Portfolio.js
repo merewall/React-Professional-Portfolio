@@ -52,7 +52,7 @@ export default function Portfolio() {
     return (
     <div className="container">
       <div className="page-title">
-        <h1><span className="yellow-text">(</span> Portfolio Page <span className="yellow-text">)</span><span className="blue-text"> => </span><span className="yellow-text"> &#123;</span></h1>
+        <h1><span className="yellow-text">(</span> Portfolio <span className="yellow-text">)</span><span className="blue-text"> => </span><span className="yellow-text"> &#123;</span></h1>
       </div>
         
       <div className="card-container">

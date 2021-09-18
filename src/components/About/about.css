@@ -112,8 +112,18 @@
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media screen and (min-width: 801px) {
+  .about-me-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #about-me-detail {
+    margin-left: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
   .headshot {
-    justify-content: start;
+    margin-right: 1.5rem;
   }
 }
 

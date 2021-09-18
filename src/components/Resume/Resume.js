@@ -10,7 +10,7 @@ export default function Resume() {
       <div className="page-title">
         <h1>
           <span className="yellow-text">(</span>
-          &nbsp;R&#0233;sum&#0233; and Skills&nbsp;
+          &nbsp;R&#0233;sum&#0233; + Skills&nbsp;
           <span className="yellow-text">)</span><span className="blue-text"> => </span><span className="yellow-text"> &#123;</span>
         </h1>
       </div>

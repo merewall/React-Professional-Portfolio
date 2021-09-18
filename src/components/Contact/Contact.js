@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="page-title">
         <h1>
           <span className="yellow-text">(</span>
-          &nbsp;Contact Page&nbsp;
+          &nbsp;Contact&nbsp;
           <span className="yellow-text">)</span><span className="blue-text"> => </span><span className="yellow-text"> &#123;</span>
         </h1>
       </div>
