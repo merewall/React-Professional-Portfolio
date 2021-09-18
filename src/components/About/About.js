@@ -28,7 +28,7 @@ export default function About() {
             <span className="hide">HIKING</span>
           </div>
           <div className="interest-item">
-            <img src={`${PUBLIC_URL}/assets/images/fitz.jpg`} className="about-me-image" alt="orange tabby cat"></img>
+            <img src={`${PUBLIC_URL}/assets/images/fitz.JPG`} className="about-me-image" alt="orange tabby cat"></img>
             <span className="hide">FITZ</span>
           </div>
           <div className="interest-item">
