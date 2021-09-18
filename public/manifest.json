@@ -38,29 +38,29 @@
         "type": "image/png"
     },
     {
-        "src": "/assets/images/getHAPI.PNG",
+        "src": "/assets/images/getHAPI.png",
         "sizes": "500x500",
-        "type": "image/PNG"
+        "type": "image/png"
     },
     {
-        "src": "/assets/images/note-taker.PNG",
+        "src": "/assets/images/note-taker.png",
         "sizes": "500x500",
-        "type": "image/PNG"
+        "type": "image/png"
     },
     {
-        "src": "/assets/images/team-profile.PNG",
+        "src": "/assets/images/team-profile.png",
         "sizes": "500x500",
-        "type": "image/PNG"
+        "type": "image/png"
     },
     {
-        "src": "/assets/images/tech-blog.PNG",
+        "src": "/assets/images/tech-blog.png",
         "sizes": "500x500",
-        "type": "image/PNG"
+        "type": "image/png"
     },
     {
-        "src": "/assets/images/toolin-around.PNG",
+        "src": "/assets/images/toolin-around.png",
         "sizes": "500x500",
-        "type": "image/PNG"
+        "type": "image/png"
     },
     {
         "src": "/assets/images/weather-dashboard.jpg",
