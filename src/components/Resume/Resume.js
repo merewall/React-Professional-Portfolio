@@ -10,7 +10,7 @@ export default function Resume() {
       <div className="page-title">
         <h1>
           <span className="yellow-text">(</span>
-          &nbsp;R&#0233;sum&#0233; + Skills&nbsp;
+          &nbsp;R&#0233;sum&#0233;&nbsp;
           <span className="yellow-text">)</span><span className="blue-text"> => </span><span className="yellow-text"> &#123;</span>
         </h1>
       </div>
@@ -21,7 +21,7 @@ export default function Resume() {
         <div className="skills-list-div">
           <h3>
             <code>
-              <span className="yellow-text">(</span> Front-End <span className="yellow-text">)</span><span className="blue-text"> => </span><span className="yellow-text"> &#123; </span>
+              <span className="yellow-text">(</span> Front-End Skills <span className="yellow-text">)</span><span className="blue-text"> => </span><span className="yellow-text"> &#123; </span>
             </code>
           </h3>
           <ul className="skills-list">
@@ -44,7 +44,7 @@ export default function Resume() {
         <div className="skills-list-div">
           <h3>
             <code>
-              <span className="yellow-text">(</span> Back-End <span className="yellow-text">)</span><span className="blue-text"> => </span><span className="yellow-text"> &#123; </span>
+              <span className="yellow-text">(</span> Back-End Skills <span className="yellow-text">)</span><span className="blue-text"> => </span><span className="yellow-text"> &#123; </span>
             </code>
           </h3>
           <ul className="skills-list">
