@@ -1,0 +1,53 @@
+header {
+  height: 200px;
+  background: url(../../assets/images/cover.jpg);
+  background-size: cover;
+}
+
+header img {
+  height: inherit;
+}
+
+.header-opacity {
+  height: 200px;
+  background-color: rgba(248, 249, 250, 0.5);
+}
+
+header h1 {
+  color: darkslategray;
+  font-size: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* -------------------- RESPONSIVENESS ------------------- */
+/* https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile */
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media screen and (min-width: 320px) {
+}
+
+/* smartphones, Android phones, landscape iPhone */
+@media screen and (min-width: 480px) {
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media screen and (min-width: 600px) {
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media screen and (min-width: 801px) {
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media screen and (min-width: 991px) {
+}
+
+@media screen and (min-width: 994px) {
+}
+
+/* hi-res laptops and desktops */
+@media screen and (min-width: 1281px) {
+}

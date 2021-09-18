@@ -1,0 +1,79 @@
+nav {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+nav .navbar-brand img,
+nav .navbar-toggler,
+nav div {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.nav-bg {
+  background-color: rgba(248, 249, 250, 1);
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.right-align {
+  display: flex;
+  justify-content: right;
+}
+
+.active-page {
+  background-color: rgba(47, 79, 79, 0.3);
+  border-radius: 10px;
+  cursor: default;
+  text-shadow: 3px 3px 15px rgba(255, 255, 255, 1);
+}
+
+#about-link,
+#portfolio-link,
+#contact-link,
+#resume-link {
+  color: darkslategray;
+}
+
+/* -------------------- RESPONSIVENESS ------------------- */
+/* https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile */
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media screen and (min-width: 320px) {
+}
+
+/* smartphones, Android phones, landscape iPhone */
+@media screen and (min-width: 480px) {
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media screen and (min-width: 600px) {
+  .nav-bg {
+    background-color: rgba(248, 249, 250, 0.8);
+  }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media screen and (min-width: 801px) {
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media screen and (min-width: 991px) {
+  .nav-bg {
+    background-color: rgba(248, 249, 250, 0);
+  }
+}
+
+@media screen and (min-width: 994px) {
+}
+
+/* hi-res laptops and desktops */
+@media screen and (min-width: 1281px) {
+}

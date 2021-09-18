@@ -1,0 +1,129 @@
+.container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.page-title,
+.headshot {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.headshot {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.yellow-text {
+  color: #ffeb3b;
+}
+
+.blue-text {
+  color: #2196f3;
+}
+
+.smiley {
+  width: 40px;
+  height: 40px;
+}
+
+#about-me-detail {
+  text-align: center;
+}
+
+#interest-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+#interest-div img {
+  flex: 1;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bottom-bracket {
+  margin-top: 1.5rem;
+}
+
+#resume-href {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.interest-item {
+  position: relative;
+}
+
+.interest-item span {
+  position: absolute;
+  right: 30%;
+  bottom: 20%;
+  color: whitesmoke;
+  text-shadow: 3px 3px 15px darkslategray;
+  background-color: rgba(47, 79, 79, 0.8);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+.interest-item:hover span {
+  display: block;
+}
+
+/* -------------------- RESPONSIVENESS ------------------- */
+/* https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile */
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media screen and (min-width: 320px) {
+}
+
+/* smartphones, Android phones, landscape iPhone */
+@media screen and (min-width: 480px) {
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media screen and (min-width: 600px) {
+  #interest-div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #interest-div img {
+    flex: 2 1 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media screen and (min-width: 801px) {
+  .headshot {
+    justify-content: start;
+  }
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media screen and (min-width: 991px) {
+}
+
+@media screen and (min-width: 994px) {
+}
+
+/* hi-res laptops and desktops */
+@media screen and (min-width: 1281px) {
+}
