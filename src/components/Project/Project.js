@@ -1,18 +1,16 @@
+// BRING IN REACT MODULE AND STYLESHEET
 import React from "react";
 import './project.css'
 
+// FOR STATIC PUBLIC DIRECTORY HREFS
 const {PUBLIC_URL} = process.env
 
-// const styles = {
-//     card: {
-//         width: "18rem",
-//     },
-// }
-
+// PROJECT COMPONENT
 export default function Project({project}) {
-
+    // DESTRUCTOR INCOMING PROJECT PROP
     const { title, description, repo, deployed, filepath } = project;
 
+    // CARD FOR EACH PROJECT W/ IMAGE, TITLE, DESCRIPTION, AND LINKS
     return (
         <div className="card">
             <img

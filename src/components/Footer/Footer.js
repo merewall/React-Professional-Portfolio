@@ -1,6 +1,8 @@
+// BRING IN REACT MODULE AND STYLESHEET
 import React from 'react';
 import './footer.css'
 
+// FOOTER COMPONENT
 export default function Footer() {
   return (
     <footer className="flex-row px-1">

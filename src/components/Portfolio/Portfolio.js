@@ -1,9 +1,14 @@
+// BRING IN REACT AND USESTATE MODULES
 import React, {useState} from 'react';
+
+// CONNECT PROJECT COMPONENT AND STYLESHEET
 import Project from '../Project/Project';
 import './portfolio.css'
 
+// PORTFOLIO COMPONENT
 export default function Portfolio() {
     
+    // PROJECT DATA AS A STATE
     const [projects] = useState([
       {
         title: 'Tech*nicality Blog',
@@ -49,23 +54,30 @@ export default function Portfolio() {
       },
     ])
 
+    // PORTFOLIO PAGE
     return (
-    <div className="container">
-      <div className="page-title">
-        <h1><span className="yellow-text">(</span> Portfolio <span className="yellow-text">)</span><span className="blue-text"> => </span><span className="yellow-text"> &#123;</span></h1>
-      </div>
+      // FLEX CONTAINER FOR PAGE
+      <div className="container">
+
+        {/* PAGE TITLE */}
+        <div className="page-title">
+          <h1><span className="yellow-text">(</span> Portfolio <span className="yellow-text">)</span><span className="blue-text"> => </span><span className="yellow-text"> &#123;</span></h1>
+        </div>
         
-      <div className="card-container">
-        {projects.map((project, index) => {
-          return (
-            <Project 
-              project={project}
-              key={index}
-            />
-          )
-        })}
+        {/* CONTAINER FOR EACH PROJECT */}
+        <div className="card-container">
+          {projects.map((project, index) => {
+            return (
+              <Project 
+                project={project}
+                key={index}
+              />
+            )
+          })}
+        </div>
+
+        {/* CLOSING PAGE BRACKET */}
+        <h1 className="yellow-text bottom-bracket">&#125;</h1>
       </div>
-      <h1 className="yellow-text bottom-bracket">&#125;</h1>
-    </div>
   );
 }
