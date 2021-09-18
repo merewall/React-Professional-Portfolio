@@ -17,19 +17,19 @@ My professional web development portfolio including samples of selected work, ab
 
 _Homepage and About Me:_
 
-<img src="https://github.com/merewall/React-Professional-Portfolio/blob/main/public/assets/images/homepage.PNG" alt="desktop view of meredith wall's portfolio homepage and about me" width="600px" height="300px">
+<img src="https://github.com/merewall/React-Professional-Portfolio/blob/main/public/assets/readme-images/homepage.PNG" alt="desktop view of meredith wall's portfolio homepage and about me" width="600px" height="300px">
 
 _Portfolio:_
 
-<img src="https://github.com/merewall/React-Professional-Portfolio/blob/main/public/assets/images/portfolio.PNG" alt="desktop view meredith wall's portfolio" width="600px" height="300px">
+<img src="https://github.com/merewall/React-Professional-Portfolio/blob/main/public/assets/readme-images/portfolio.PNG" alt="desktop view meredith wall's portfolio" width="600px" height="300px">
 
 _Contact:_
 
-<img src="https://github.com/merewall/React-Professional-Portfolio/blob/main/public/assets/images/contact.PNG" alt="desktop view of meredith wall's portfolio contact page" width="600px" height="300px">
+<img src="https://github.com/merewall/React-Professional-Portfolio/blob/main/public/assets/readme-images/contact.PNG" alt="desktop view of meredith wall's portfolio contact page" width="600px" height="300px">
 
 _Resume:_
 
-<img src="https://github.com/merewall/React-Professional-Portfolio/blob/main/public/assets/images/resume.PNG" alt="desktop view of meredith wall's portfolio resume page" width="600px" height="300px">
+<img src="https://github.com/merewall/React-Professional-Portfolio/blob/main/public/assets/readme-images/resume.PNG" alt="desktop view of meredith wall's portfolio resume page" width="600px" height="300px">
 
 ## Technologies
 
