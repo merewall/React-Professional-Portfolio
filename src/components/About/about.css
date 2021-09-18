@@ -131,6 +131,9 @@
 
 /* big landscape tablets, laptops, and desktops */
 @media screen and (min-width: 991px) {
+  #about-me-detail {
+    font-size: 1.25rem;
+  }
 }
 
 @media screen and (min-width: 994px) {

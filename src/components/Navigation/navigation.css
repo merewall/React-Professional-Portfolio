@@ -69,6 +69,12 @@ nav div {
   .nav-bg {
     background-color: rgba(248, 249, 250, 0);
   }
+
+  .nav-link {
+    font-size: 1.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 
 @media screen and (min-width: 994px) {

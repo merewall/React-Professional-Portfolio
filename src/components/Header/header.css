@@ -39,6 +39,9 @@ header h1 {
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media screen and (min-width: 801px) {
+  header h1 {
+    font-size: 3.5rem;
+  }
 }
 
 /* big landscape tablets, laptops, and desktops */
@@ -46,6 +49,9 @@ header h1 {
 }
 
 @media screen and (min-width: 994px) {
+  header h1 {
+    font-size: 4rem;
+  }
 }
 
 /* hi-res laptops and desktops */
