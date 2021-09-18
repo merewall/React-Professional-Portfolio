@@ -21,7 +21,7 @@ _Homepage and About Me:_
 
 _Portfolio:_
 
-<img src="https://github.com/merewall/React-Professional-Portfolio/blob/main/public/assets/images/portfolio.PNG" alt="desktop view meredith wall's portfolio" width="300px" height="500px">
+<img src="https://github.com/merewall/React-Professional-Portfolio/blob/main/public/assets/images/portfolio.PNG" alt="desktop view meredith wall's portfolio" width="600px" height="300px">
 
 _Contact:_
 
