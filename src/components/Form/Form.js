@@ -18,16 +18,33 @@ export default function Form() {
         let inputType = target.name;
         let inputValue = target.value;
 
+        if (inputValue === "") {
+            switch (inputType) {
+                case 'firstName':
+                    return setErrorMessage('First name is required!');
+                case 'lastName':
+                    return setErrorMessage('Last name is required!');
+                case 'email':
+                    return setErrorMessage('Email is required!');
+                case 'message':
+                    return setErrorMessage('Message is required!');
+                default:
+                    setErrorMessage('')
+            }
+        }
+
         if (inputType === 'firstName') {
             setFirstName(inputValue);
         } else if (inputType === 'lastName') {
             setLastName(inputValue);
         } else if (inputType === 'email') {
+            if(!validateEmail(inputValue)){
+                setErrorMessage('Email invalid!')
+            } 
             setEmail(inputValue);
         } else if (inputType === 'message') {
             setMessage(inputValue);
-        }
-        
+        } 
     };
 
     const handleFormSubmit = (event) => {
@@ -66,6 +83,7 @@ export default function Form() {
                     value={firstName}
                     name="firstName"
                     onChange={handleInputChange}
+                    onBlur={handleInputChange}
                     type="text"
                 />
                 <label for="lastName">
@@ -75,6 +93,7 @@ export default function Form() {
                     value={lastName}
                     name="lastName"
                     onChange={handleInputChange}
+                    onBlur={handleInputChange}
                     type="text"
                 />
                 <label for="email">
@@ -84,6 +103,7 @@ export default function Form() {
                     value={email}
                     name="email"
                     onChange={handleInputChange}
+                    onBlur={handleInputChange}
                     type="email"
                 />
                 <label for="message">
@@ -93,6 +113,7 @@ export default function Form() {
                     value={message}
                     name="message"
                     onChange={handleInputChange}
+                    onBlur={handleInputChange}
                     type="textarea"
                     id="message-input"
                 />
