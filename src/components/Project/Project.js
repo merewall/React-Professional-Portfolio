@@ -21,8 +21,8 @@ export default function Project({project}) {
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
                 <p className="card-text">{description}</p>
-                <a href={repo} className="project-link" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
-                <a href={deployed} className="project-link" target="_blank" rel="noreferrer"><i className="fas fa-laptop-code"></i></a>
+                <a href={repo} className="project-link" target="_blank" rel="noreferrer" ><i alt="Link to GitHub Repo" className="fab fa-github"></i></a>
+                <a href={deployed} className="project-link" target="_blank" rel="noreferrer"><i  alt="Link to Deployed App" className="fas fa-laptop-code"></i></a>
             </div>
         </div>
     )
