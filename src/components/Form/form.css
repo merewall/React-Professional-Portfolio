@@ -6,11 +6,14 @@
 form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 form input {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
+  width: 90%;
 }
 
 form label {
@@ -31,9 +34,17 @@ form label {
 }
 
 form .btn-primary {
-  width: 50%;
   background-color: #2196f3;
   color: whitesmoke;
+}
+
+form .btn-primary:hover {
+  background-color: rgba(33, 150, 143, 0.8);
+  border: 1px solid rgba(33, 150, 143, 0.8);
+}
+
+form .btn-primary:active {
+  transform: translate(2px, 2px);
 }
 
 .button-div {
@@ -53,30 +64,22 @@ form .btn-primary {
 
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 @media screen and (min-width: 600px) {
-  form {
+  form input {
     width: 75vw;
   }
 }
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media screen and (min-width: 801px) {
-  form {
+  form input {
     width: 60vw;
-  }
-
-  form .btn-primary {
-    width: 35%;
   }
 }
 
 /* big landscape tablets, laptops, and desktops */
 @media screen and (min-width: 991px) {
-  form {
+  form input {
     width: 50vw;
-  }
-
-  form .btn-primary {
-    width: 25%;
   }
 }
 

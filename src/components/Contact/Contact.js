@@ -19,9 +19,11 @@ export default function Contact() {
           <span className="yellow-text">)</span><span className="blue-text"> => </span><span className="yellow-text"> &#123;</span>
         </h1>
       </div>
-
-      {/* FORM COMPONENT IMPORT */}
-      <Form />
+      <div className="form-flex-container">
+        {/* FORM COMPONENT IMPORT */}
+        <Form />
+      </div>
+      
 
       {/* CLOSING BRACKET FOR PAGE */}
       <h1 className="yellow-text bottom-bracket">&#125;</h1>
