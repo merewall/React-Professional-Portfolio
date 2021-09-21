@@ -42,7 +42,7 @@ export default function Portfolio() {
         title: 'Weather Dashboard',
         description: 'a weather-search app',
         repo: "https://github.com/merewall/Wk6-WeatherDashboard",
-        deployed: "https://merewall.github.io/Wk6-WeatherDashboard/s",
+        deployed: "https://merewall.github.io/Wk6-WeatherDashboard/",
         filepath: "/assets/images/weather-dashboard.jpg"
       },
       {
