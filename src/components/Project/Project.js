@@ -13,11 +13,13 @@ export default function Project({project}) {
     // CARD FOR EACH PROJECT W/ IMAGE, TITLE, DESCRIPTION, AND LINKS
     return (
         <div className="card">
-            <img
-                className="card-img-top"
-                src={PUBLIC_URL + filepath}
-                alt={`Logo for ${title}`}
-            />
+            <a href={deployed} target="_blank" rel="noreferrer">
+                <img
+                    className="card-img-top"
+                    src={PUBLIC_URL + filepath}
+                    alt={`Logo for ${title}`}
+                />
+            </a>
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
                 <p className="card-text">{description}</p>
