@@ -27,7 +27,7 @@ export default function About() {
         {/* BIO SECTION */}
         <div id="about-me-detail">
           <p>Hi, there! <span><img src="https://editablegifs.com/gifs/gifs/raising-hand-emoji/thumbnail.gif" alt="waving smiley" className="smiley"></img></span></p>
-          <p>I'm pursuing a Full-Stack Web Development Certificate from Georgia Tech and have extensive management <a id="resume-href" className="waves-effect" href="%PUBLIC_URL%/assets/downloadables/Meredith-Wall-WebDevResume-DB.pdf" target="_blank" download="MeredithWall_Resume">experience</a> as an environmental geologist and marketer.</p>
+          <p>I'm a scientific-creative with a Full-Stack Web Development Certificate from Georgia Tech! I have extensive management <a id="resume-href" className="waves-effect" href="%PUBLIC_URL%/assets/downloadables/Meredith-Wall-WebDevResume-DB.pdf" target="_blank" download="MeredithWall_Resume">experience</a> as an environmental geologist and marketer.</p>
           <p>I have a passion for creating clean, polished UI designs using HTML, CSS, & JavaScript, keeping user functionality in mind.</p>
           <p>I grew up in Austin, Texas, am a registered member of the Cherokee nation, and am renovating a home in Atlanta, Georgia.</p>
           <p>When I'm not coding, I love exploring the national parks, traveling, and hanging out with my best friends:<br></br> Fitz <span><i className="fas fa-cat"></i></span>, Tink <span><i className="fas fa-dog"></i></span>, and Cali <span><i className="fas fa-cat"></i></span>!</p>
