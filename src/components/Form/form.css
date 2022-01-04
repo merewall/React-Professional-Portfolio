@@ -51,6 +51,10 @@ form .btn-primary:active {
   text-align: center;
 }
 
+.contact-links a {
+  padding: 1rem 2rem;
+}
+
 /* -------------------- RESPONSIVENESS ------------------- */
 /* https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile */
 
@@ -60,6 +64,9 @@ form .btn-primary:active {
 
 /* smartphones, Android phones, landscape iPhone */
 @media screen and (min-width: 480px) {
+  .contact-links a {
+    padding: 0.5rem 0;
+  }
 }
 
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
@@ -67,12 +74,19 @@ form .btn-primary:active {
   form input {
     width: 75vw;
   }
+  .contact-links a {
+    padding: 1rem 0;
+  }
 }
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media screen and (min-width: 801px) {
   form input {
     width: 60vw;
+  }
+
+  .contact-links a {
+    padding: 1rem 1rem;
   }
 }
 

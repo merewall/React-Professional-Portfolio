@@ -45,13 +45,20 @@ export default function Portfolio() {
         deployed: "https://merewall.github.io/Wk6-WeatherDashboard/",
         filepath: "/assets/images/weather-dashboard.jpg"
       },
+      // {
+      //   title: 'Get H.API',
+      //   description: 'a little pick-me-up',
+      //   repo: "https://github.com/merewall/Project-1-getHAPI",
+      //   deployed: "https://merewall.github.io/Project-1-getHAPI/",
+      //   filepath: "/assets/images/getHAPI.png"
+      // },
       {
-        title: 'Get H.API',
-        description: 'a little pick-me-up',
-        repo: "https://github.com/merewall/Project-1-getHAPI",
-        deployed: "https://merewall.github.io/Project-1-getHAPI/",
-        filepath: "/assets/images/getHAPI.png"
-      },
+        title: 'Nommy',
+        description: 'restaurant inspiration',
+        repo: "https://github.com/merewall/nommy",
+        deployed: "https://nommy-restaurants.herokuapp.com/",
+        filepath: "/assets/images/nommy.png"
+      }
     ])
 
     // PORTFOLIO PAGE

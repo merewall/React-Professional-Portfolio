@@ -88,11 +88,12 @@ export default function Form() {
         <div className="container">
 
             {/* DYNAMICALLY UPDATED WELCOME GREETING */}
-            <p>Hello{firstName? "," : ""} {firstName}{firstName? "!" : ""} <span><img src="https://editablegifs.com/gifs/gifs/raising-hand-emoji/thumbnail.gif" alt="waving smiley" className="smiley"></img></span></p>
+            {/* <p>Hello{firstName? "," : ""} {firstName}{firstName? "!" : ""} <span><img src="https://editablegifs.com/gifs/gifs/raising-hand-emoji/thumbnail.gif" alt="waving smiley" className="smiley"></img></span></p> */}
+            <p>Hello,<span><img src="https://editablegifs.com/gifs/gifs/raising-hand-emoji/thumbnail.gif" alt="waving smiley" className="smiley"></img></span> let's stay in touch!</p>
             
             {/* CONTACT FORM */}
             <form className="form">
-                <label for="firstName">
+                {/* <label for="firstName">
                     First Name:
                 </label>
                 <input
@@ -132,10 +133,10 @@ export default function Form() {
                     onBlur={handleInputChange}
                     type="textarea"
                     id="message-input"
-                />
+                /> */}
 
                 {/* ERROR/SUCCESS MESSAGES CONDITIONALLY RENDERED */}
-                <div className="alert-message">
+                {/* <div className="alert-message">
                     {errorMessage && (
                         <div>
                         <p className="error-text">{errorMessage}</p>
@@ -146,22 +147,25 @@ export default function Form() {
                         <p className="error-text">{successMessage}</p>
                         </div>
                     )}
-                </div>
+                </div> */}
 
                 {/* FORM SUBMISSION BUTTON */}
-                <div className="button-div">
+                {/* <div className="button-div">
                     <button 
                         onClick={handleFormSubmit}
                         className="btn btn-primary"
                     >
                         Send Email
                     </button>
-                </div>
+                </div> */}
 
                 {/* ALTERNATIVE CONTACT LINKS */}
                 <div className="contact-links">
-                    <a href="mailto:mlwall@alumni.princeton.edu" target="_blank" rel="noreferrer"><i className="fas fa-envelope"></i></a>
-                    <a href="tel:+15126260968" target="_blank" rel="noreferrer"><i className="fas fa-phone"></i></a>
+                    <a href="mailto:mlwall@alumni.princeton.edu" target="_blank" rel="noreferrer" data-name="mlwall@alumni.princeton.edu"><i className="fas fa-envelope"></i></a>
+                    <a href="tel:+15126260968" target="_blank" rel="noreferrer" data-name="512-626-0968"><i className="fas fa-phone"></i></a>
+                    <a href="https://github.com/merewall" target="_blank" rel="noreferrer" alt="GitHub profile link" data-name="See how I'm working on GitHub"><i className="fab fa-github" alt="GitHub logo"></i></a>
+                    <a href="https://www.linkedin.com/in/meredithwall/" target="_blank" rel="noreferrer" alt="LinkedIn link" data-name="Message me on LinkedIn"><i className="fab fa-linkedin" alt="LinkedIn logo"></i></a>
+                    <a href="https://www.instagram.com/merewall" target="_blank" rel="noreferrer"  alt="Instagram profile link" data-name="Check out my Instagram"><i className="fab fa-instagram" alt="Instagram icon"></i></a>
                 </div>
                 
             </form>
