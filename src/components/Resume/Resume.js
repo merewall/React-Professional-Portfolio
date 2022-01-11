@@ -23,7 +23,7 @@ export default function Resume() {
 
         {/* LINK TO DOWNLOAD RESUME */}
         <p id="download-paragraph">  
-          <a href={`${PUBLIC_URL}/assets/downloadables/Meredith-Wall-WebDevResume-DB.pdf`} target="_blank" download="MeredithWall_Resume" className="download-resume" rel="noreferrer"><i className="fas fa-download"></i> Download my r&#0233;sum&#0233;</a>
+          <a href={`${PUBLIC_URL}/assets/downloadables/MeredithWall_WebDevelopment_Resume_01112022.pdf`} target="_blank" download="MeredithWall_Resume" className="download-resume" rel="noreferrer"><i className="fas fa-download"></i> Download my r&#0233;sum&#0233;</a>
         </p>
 
         {/* DEVELOPER SKILLS SECTION */}
