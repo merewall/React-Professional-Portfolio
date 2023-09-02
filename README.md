@@ -47,5 +47,5 @@ _Resume:_
 
 ## Links
 
-- [Deployed application](https://enigmatic-falls-26258.herokuapp.com/#resume)
+- [Deployed application](https://www.meredithwall.com)
 - [GitHub Repo](https://github.com/merewall/React-Professional-Portfolio)
